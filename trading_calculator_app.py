@@ -53,7 +53,7 @@ with col_left:
         take_profit_price = st.number_input("止盈价格", value=None, step=10.0, format="%.2f")
 
         liquidation_price_input = st.number_input(
-            "止损价格",
+            "强平价格",
             value=None,
             step=10.0,
             format="%.2f",
